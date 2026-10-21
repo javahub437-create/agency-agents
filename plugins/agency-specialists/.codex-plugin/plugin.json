@@ -1,0 +1,32 @@
+{
+  "name": "agency-specialists",
+  "version": "0.1.0",
+  "description": "Reusable specialist workflows for code review, UX research, content strategy, and coordinating multi-role project work.",
+  "author": {"name": "The Agency contributors", "url": "https://github.com/msitarzewski/agency-agents"},
+  "homepage": "https://agencyagents.app",
+  "repository": "https://github.com/msitarzewski/agency-agents",
+  "license": "MIT",
+  "keywords": ["agents", "code-review", "ux-research", "content-strategy", "project-planning"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agency Specialists",
+    "shortDescription": "Apply focused specialist workflows",
+    "longDescription": "A curated set of repeatable specialist workflows adapted from The Agency: code review, UX research planning, content campaign planning, and multi-role project runbooks. Skills use tools available in the current ChatGPT or Codex host and do not require a bundled remote service. Repository edits and other consequential actions remain subject to user authorization.",
+    "developerName": "The Agency contributors",
+    "category": "productivity",
+    "capabilities": [
+      "Review code for correctness, security, maintainability, performance, and test gaps.",
+      "Plan ethical, evidence-led UX research and usability studies.",
+      "Create audience-focused content strategies and multi-channel campaign plans.",
+      "Coordinate multi-role project workflows with explicit phases, deliverables, and quality gates."
+    ],
+    "defaultPrompt": [
+      "Review this code for correctness, security risks, and missing tests.",
+      "Create a UX research plan for validating this product idea.",
+      "Build a content campaign plan for this audience and goal."
+    ],
+    "logo": "./assets/logo-light.svg",
+    "composerIcon": "./assets/icon.svg",
+    "brandColor": "#234E70"
+  }
+}
