@@ -2,27 +2,24 @@
   "name": "agency-specialists",
   "version": "0.1.0",
   "description": "A starter set of focused workflows for code review, UX research, content campaigns, and project runbooks.",
-  "author": {
-    "name": "Java Hub",
-    "url": "https://github.com/javahub437-create"
-  },
-  "homepage": "https://github.com/javahub437-create/agency-agents",
-  "repository": "https://github.com/javahub437-create/agency-agents",
-  "license": "MIT",
-  "keywords": ["agency", "code-review", "ux-research", "content-strategy", "project-management"],
-  "skills": "./skills/",
-  "interface": {
-    "displayName": "Agency Specialists",
-    "shortDescription": "Four focused workflows for building and shipping better work.",
-    "longDescription": "A starter plugin bundling code review, UX research planning, content campaign planning, and project runbook orchestration workflows.",
-    "developerName": "Java Hub",
-    "category": "Productivity",
-    "capabilities": ["Write"],
-    "websiteURL": "https://github.com/javahub437-create/agency-agents",
-    "defaultPrompt": [
-      "Review this code change for risks and regressions.",
-      "Plan a practical UX research study.",
-      "Build a phased project runbook."
-    ]
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Agency Specialists",
+        "shortDescription": "Four focused workflows for building and shipping better work.",
+        "longDescription": "A starter plugin bundling code review, UX research planning, content campaign planning, and project runbook orchestration workflows.",
+        "developerName": "Java Hub",
+        "category": "Productivity",
+        "capabilities": [
+          "Write"
+        ],
+        "websiteURL": "https://github.com/javahub437-create/agency-agents",
+        "defaultPrompt": [
+          "Review this code change for risks and regressions.",
+          "Plan a practical UX research study.",
+          "Build a phased project runbook."
+        ]
+      }
+    }
   }
 }
